@@ -1,5 +1,5 @@
 let accordian = document.getElementsByClassName("FAQ__title");
-
+ 
 for (let i = 0; i < accordian.length; i++) {
   accordian[i].addEventListener("click", function () {
     if (this.childNodes[1].classList.contains("fa-plus")) {
